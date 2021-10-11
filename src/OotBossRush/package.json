@@ -1,6 +1,6 @@
 {
   "name": "OotBossRush",
-  "version": "1.0.1-nightly@453d1c5",
+  "version": "1.0.1-nightly@87e8adb",
   "description": "",
   "main": "OotBossRush.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "core": "Z64Lib",
-  "date": "Mon, 11 Oct 2021 12:57:54 GMT",
-  "commit": "453d1c5"
+  "date": "Mon, 11 Oct 2021 13:14:07 GMT",
+  "commit": "87e8adb"
 }
