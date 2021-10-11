@@ -1,6 +1,6 @@
 {
   "name": "OotBossRush",
-  "version": "1.0.0",
+  "version": "1.0.1-nightly@453d1c5",
   "description": "",
   "main": "OotBossRush.js",
   "scripts": {
@@ -9,5 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "core": "OcarinaofTime"
+  "core": "OcarinaofTime",
+  "date": "Mon, 11 Oct 2021 12:57:54 GMT",
+  "commit": "453d1c5"
 }

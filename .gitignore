@@ -1,3 +1,5 @@
 
 node_modules/
 modloader64-config.json
+build/
+dist/
