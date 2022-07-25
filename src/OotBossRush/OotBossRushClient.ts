@@ -4,7 +4,7 @@ import { IModLoaderAPI } from 'modloader64_api/IModLoaderAPI';
 import { ModLoaderAPIInject } from "modloader64_api/ModLoaderAPIInjector";
 import { bus, EventHandler } from 'modloader64_api/EventHandler';
 import { IZ64Main } from 'Z64Lib/API/Common/IZ64Main';
-import { AmmoUpgrade, Magic, MagicQuantities, Ocarina, OotEvents, UpgradeCountLookup } from 'Z64Lib/API/Common/Z64API';
+import { AmmoUpgrade, Magic, MagicQuantities, Ocarina, UpgradeCountLookup, Z64Events } from 'Z64Lib/API/Common/Z64API';
 import { InventoryItem, Strength, ZoraScale, Hookshot } from 'Z64Lib/API/OoT/OOTAPI';
 
 const enum Z64OnlineEvents {
@@ -163,7 +163,7 @@ export class OotBossRushClient {
     onTick(frame: number) {
     }
 
-    @EventHandler(OotEvents.ON_SCENE_CHANGE)
+    @EventHandler(Z64Events.ON_SCENE_CHANGE)
     onSceneChange(scene: number) {
         // Setup entrance table here.
         if (scene === 0x0034 || scene === 0x0043) {
